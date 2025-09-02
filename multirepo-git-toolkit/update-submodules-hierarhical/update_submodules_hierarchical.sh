@@ -15,6 +15,9 @@ if [ -z "$USER" ] || [ -z "$BRANCH" ] || [ -z "$FILE" ]; then
   exit 1
 fi
 
+# Ensure Git retries transient errors automatically
+git config --global core.retry 5
+
 echo "🔧 Starting script with:"
 echo "   USER   = $USER"
 echo "   BRANCH = $BRANCH"

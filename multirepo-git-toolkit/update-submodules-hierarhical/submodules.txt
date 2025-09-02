@@ -1,5 +1,6 @@
 [contributions]
 aeroplanner-rest-api
+any-llm
 api-boilerplate-nestjs
 asciidoclet
 binarytree
@@ -7,6 +8,7 @@ competency-insights
 ECE-366-Duopoly
 ED-Demo-Project
 EnterpriseApplication
+frontend
 JJazzLab
 MBYAPISec
 openmon
@@ -20,6 +22,7 @@ Task-Management-Software
 TeSoPs-ELECTRIcity_NILM
 ToDo-CLI
 Tourplanner
+twenty
 up-for-grabs.net
 web-app-dicom-viewer
 

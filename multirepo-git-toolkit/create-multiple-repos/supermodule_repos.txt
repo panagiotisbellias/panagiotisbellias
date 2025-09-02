@@ -1,0 +1,2 @@
+desktop-apps|Contains all my desktop projects
+panagiotisbellias|Contains all my projects and various automations on git operations

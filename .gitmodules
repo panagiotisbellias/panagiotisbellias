@@ -7,3 +7,6 @@
 [submodule "desktop-apps"]
 	path = desktop-apps
 	url = https://github.com/panagiotisbellias/desktop-apps.git
+[submodule "takeovers"]
+	path = takeovers
+	url = https://github.com/panagiotisbellias/takeovers.git

@@ -10,3 +10,6 @@
 [submodule "takeovers"]
 	path = takeovers
 	url = https://github.com/panagiotisbellias/takeovers.git
+[submodule "web-apps"]
+	path = web-apps
+	url = https://github.com/panagiotisbellias/web-apps.git

@@ -1,3 +1,6 @@
 [submodule "android-apps"]
 	path = android-apps
 	url = https://github.com/panagiotisbellias/android-apps.git
+[submodule "contributions"]
+	path = contributions
+	url = https://github.com/panagiotisbellias/contributions.git

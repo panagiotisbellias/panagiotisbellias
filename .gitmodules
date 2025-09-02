@@ -4,3 +4,6 @@
 [submodule "contributions"]
 	path = contributions
 	url = https://github.com/panagiotisbellias/contributions.git
+[submodule "desktop-apps"]
+	path = desktop-apps
+	url = https://github.com/panagiotisbellias/desktop-apps.git

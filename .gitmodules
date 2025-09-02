@@ -1,0 +1,3 @@
+[submodule "android-apps"]
+	path = android-apps
+	url = https://github.com/panagiotisbellias/android-apps.git

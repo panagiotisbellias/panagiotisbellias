@@ -20,7 +20,7 @@ https://cli.github.com/
 | `mirror_repo.sh`                    | Mirror a repository to your GitHub account, optionally creating a branch    | [README.md](mirror-repo/README.md)                   |
 | `update_license_all.sh`             | Add or update Apache 2.0 LICENSE in multiple repositories and submodules    | [README.md](update-license-all/README.md)            |
 | `update_submodules_hierarchical.sh` | Clone parent repos, add/update hierarchical submodules, manage branches     | [README.md](update-submodules-hierarhical\README.md) |
-|`rename_single_repo_steps.md`|Rename repositories to kebab-case|[README.md](rename-single-repo-steps\README.md)|
+| `rename_single_repo_steps.md`       | Rename repositories to kebab-case                                           | [README.md](rename-single-repo-steps\README.md)      |
 
 ---
 

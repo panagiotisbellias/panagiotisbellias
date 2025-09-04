@@ -51,7 +51,7 @@ for line in "${lines[@]}"; do
     echo "➡️  Cloning https://github.com/$USER/$safe_parent.git into folder $safe_parent"
     if [ ! -d "$safe_parent" ]; then
         echo "📥 Running: gh repo clone \"https://github.com/$USER/$safe_parent.git\" \"$safe_parent\""
-        gh repo clone "https://github.com/$USER/$safe_parent.git" "$safe_parent"
+        yes | gh repo clone "https://github.com/$USER/$safe_parent.git" "$safe_parent"
         clone_status=$?
         echo "   Clone exit code: $clone_status"
     else
@@ -117,7 +117,7 @@ for line in "${lines[@]}"; do
   cd "$safe_parent" || { echo "❌ Failed to cd into $safe_parent"; }
 
   echo "🔀 Ensuring we are on branch '$BRANCH'..."
-  git checkout "$BRANCH"
+  yes | git checkout "$BRANCH"
 
   if [ ! -d "$path" ]; then
     echo "📥 Running: git submodule add \"$url\" \"$path\""

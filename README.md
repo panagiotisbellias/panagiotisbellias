@@ -70,6 +70,20 @@ I enjoy building efficient, reliable systems and collaborating on impactful proj
 
 ---
 
+## 🌐 Join Our Community on Discord
+
+I’m contributing as a moderator in a Discord server where we collaborate, share knowledge, and work on projects together.  
+The server is supported by bots for organization, events, and interaction (Dyno, Carl-bot, Apollo).
+
+🔗 **Join the server:** [https://discord.gg/yourserver](https://discord.gg/XMWtAkEadQ)
+
+You can also check out our related work here:  
+📂 [GitHub Repository](https://github.com/akarlaraytu/Project-Chimera)
+
+Everyone is welcome to join, learn, and contribute!
+
+---
+
 ## 📊 GitHub Stats  
 
 ![Panagiotis's GitHub Stats](https://github-readme-stats.vercel.app/api?username=panagiotisbellias&show_icons=true&theme=tokyonight)  

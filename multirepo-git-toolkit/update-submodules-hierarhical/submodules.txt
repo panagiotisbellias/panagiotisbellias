@@ -5,9 +5,11 @@ aeroplanner-rest-api
 any-llm
 api-boilerplate-nestjs
 asciidoclet
+atomic-ui-js
 binarytree
 boosti
 cc-treeiso-plugin
+codestyle
 coding-logs
 competency-insights
 Compliance-Screenshot-Archiver
@@ -33,8 +35,8 @@ main
 MBYAPISec
 meteofungi
 nixopus
+nmapper
 openmon
-opentelemetry.io
 operatorfabric-core
 org.eclipse.daanse.common
 plants-microservices

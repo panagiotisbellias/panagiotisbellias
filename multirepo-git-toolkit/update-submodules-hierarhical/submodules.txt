@@ -1,5 +1,4 @@
 [contributions]
-2025W2-Skilltree
 a2a-inspector
 aeroplanner-rest-api
 any-llm

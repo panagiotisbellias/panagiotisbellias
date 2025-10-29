@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-echo "## GENERAL ##"
+echo "### STACK ###"
+echo "## General ##"
 
 # GitHub CLI
 if command -v gh &>/dev/null; then
@@ -15,6 +16,13 @@ if command -v gnome-keyring-daemon &>/dev/null; then
   echo "gnome-keyring-$(gnome-keyring-daemon --version 2>/dev/null || echo unknown)"
 else
   echo "gnome-keyring-not-installed"
+fi
+
+# Python3-pip
+if command -v pip3 &>/dev/null; then
+  echo "python3-pip-$(pip3 --version | awk '{print $2}')"
+else
+  echo "python3-pip-not-installed"
 fi
 
 # TODO Add here any new general tools
@@ -40,7 +48,6 @@ else
 fi
 
 echo ""
-echo "## STACK ##"
 
 echo "# Nixopus #"
 if command -v go &>/dev/null; then
